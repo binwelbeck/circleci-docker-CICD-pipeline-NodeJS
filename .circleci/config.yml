@@ -9,8 +9,8 @@ executors:
     # (either docker, macos, or machine), see
       - image: circleci/node:latest
         auth:
-            username: 
-            password: 
+            username: user 
+            password: pass
 
 jobs:
     publishLatestToHub: 
