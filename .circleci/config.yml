@@ -4,13 +4,13 @@ version: 2.1
 executors:
   docker-publisher: 
     environment:
-      IMAGE_NAME: ndukwearm19docker/docker-node-app
+      IMAGE_NAME: binwelbeck/nodecirclecitestimage
     docker: # Each job requires specifying an executor
     # (either docker, macos, or machine), see
       - image: circleci/node:latest
         auth:
-            username: $DOCKERHUB_USERNAME
-            password: $DOCKERHUB_PASSWORD
+            username: binwelbeck
+            password: bine binedocker
 
 jobs:
     publishLatestToHub: 
